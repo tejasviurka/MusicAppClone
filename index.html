@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>Spotify - Your Favourite music is here</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/50c55e69af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "brand"><img src="logo.png" alt="BeatBuff">BeatBuff</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="Songlist">
+            <h1>Best of NCS - NO Copyright Sounds</h1>
+            <div class="songItem">
+                <img src="cover/1.jpg" alt="1">
+                <span>Let me Love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i  id="0" class="fas  songItemPlay fa-play-circle "></i>  </span> </span>
+               </div>
+               <div class="songItem">
+                <img src="cover/2.jpg" alt="2">
+                <span>Hawayein</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="fas  songItemPlay fa-play-circle"></i>  </span> </span>
+               </div>
+               <div class="songItem">
+                <img src="cover/3.jpg" alt="3">
+                <span>Pehla Pyarr</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="2" class="fas  songItemPlay fa-play-circle"></i>  </span> </span>
+               </div>
+               <div class="songItem">
+                <img src="cover/4.jpg" alt="4">
+                <span>O Bedardeya</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="fas  songItemPlay  fa-play-circle"></i>  </span> </span>
+               </div>
+               <div class="songItem">
+                <img src="cover/5.jpg" alt="5">
+                <span>Raatan Lambiyaan</span> 
+                <span class="songListplay"><span class="timestamp">05:34 <i id="3" class="fas  songItemPlay  fa-play-circle"></i>  </span> </span>
+               </div>
+               <div class="songItem">
+                <img src="cover/6.jpg" alt="6">
+                <span>Ram Siya Ram</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="5" class="fas songItemPlay fa-play-circle"></i>  </span> </span>
+               </div>
+               <div class="songItem">
+                <img src="cover/7.jpg" alt="7">
+                <span>Deva Deva</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="fas songItemPlay  fa-play-circle"></i>  </span> </span>
+               </div>
+               <div class="songItem">
+                <img src="cover/8.jpg" alt="8">
+                <span>Coka 2.0</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i  id="7" class="fas songItemPlay fa-play-circle"></i>  </span>  </span>      
+                </div>
+                <div class="songItem">
+                <img src="cover/9.jpg" alt="9">
+                <span>Blue Eyes</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="fas songItemPlay fa-play-circle "></i>  </span>  </span>      
+                </div>
+                <div class="songItem">
+                <img src="cover/10.jpg" alt="10">
+                <span>Brown Rang</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="fas songItemPlay fa-play-circle "></i>  </span>  </span>      
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+
+    <div class = "bottom">
+        <!-- range milte hai min max kr skte hai -->
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id = "previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id = "next"></i>
+        </div>
+        <div class = "songInfo">
+            <img src="playing.gif" width="41px" alt="" id="gif"> <span id="mastersongName" >Let me love you - Justin Beiber
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
